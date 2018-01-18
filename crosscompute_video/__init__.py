@@ -9,7 +9,7 @@ class VideoType(DataType):
     template = 'crosscompute_video:type.jinja2'
 
     @classmethod
-    def load(Class, path):
+    def load(Class, path, default_value=None):
         return path
 
     @classmethod
